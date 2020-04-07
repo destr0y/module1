@@ -1,5 +1,4 @@
-﻿using Module1;
-using System;
+﻿using System;
 
 namespace M1
 {
@@ -11,7 +10,12 @@ namespace M1
         }
 
 
-        public int[] Task(int a, int b)
+        public int[] SwapItems(int a, int b)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int GetMinimumValue(int[] input)
         {
             throw new NotImplementedException();
         }
