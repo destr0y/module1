@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace M1
 {
@@ -12,12 +13,12 @@ namespace M1
 
         public int[] SwapItems(int a, int b)
         {
-            throw new NotImplementedException();
+            return new int[] {b, a};
         }
 
         public int GetMinimumValue(int[] input)
         {
-            throw new NotImplementedException();
+            return input.Min();
         }
     }
 }
